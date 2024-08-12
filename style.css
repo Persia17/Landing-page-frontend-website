@@ -1,0 +1,159 @@
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),
+     url(https://images.hdqwalls.com/download/anime-girl-street-side-shore-kg-1440x900.jpg) ;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ff640a;
+    transition: 0.2s ease;
+    
+}
+.logo:hover{ 
+    color: white;
+    text-shadow: 0 0 25px #ff640a,
+                 0 0 50px #ff640a;
+                 transform: scale(1.1);
+
+}
+#logo{
+    color: #ff640a;
+}
+a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+}
+.menu a{
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 3px solid indianred;
+    transition: 0.4s linear;
+
+}
+a:hover:before{
+    width: 90%;
+
+}
+.register a{
+    font-size: 15px;
+    background-color: indianred;
+    border-radius: 8px;
+    text-decoration: none;
+    
+}
+.register a:hover{
+    background: transparent;
+    transition: 0.4s linear;
+    border: 1px solid indianred;
+}
+.search{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 20px 20px;
+    font-family: sans-serif;
+    
+    
+}
+input{
+    width: 250px;
+    height: 33px;
+}
+.search button {
+    color: white;
+    float: right;
+    padding: 10px 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color: indianred;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.search button:hover{
+    background: transparent;
+    transition: 0.2s linear;
+    border: 1px solid indianred;
+}
+.section{
+    padding: 10px 20px;
+    color: white;
+    margin: 50px 200px 300px 300px;
+    position: absolute;    
+}
+.section a{
+    font-size: 15px;
+    background-color: indianred;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+.section a:hover{
+    color: black;
+    background: white;
+    transition: 0.2s linear;
+    border: 1px solid indianred;
+}
+.poster{
+    display: flex;
+    padding: 50px 100px;
+    background-color: beige;
+    text-align: center;
+}
+footer{
+    background-color: white;
+    color: black;
+
+}
+.copyright{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    h2 a{
+        color: black;
+        
+    }
+.latestanime{
+        padding: 0px 60px;
+        width: 200px;
+        height: 600px;
+        
+    }
